@@ -42,7 +42,7 @@ export default class Pokedex extends PureComponent {
       const endPoint = startPoint + this.state.previewCardsPerPage
       const links = this.links
       const pokemonsData = []
-      for( let i = startPoint, j = 0; i < endPoint; i++ , j++ ) { // я индусь
+      for( let i = startPoint, j = 0; i < endPoint; i++ , j++ ) { 
          if( links[i] ){
             pokemonsData[j] = this.getData(links[i])
          }else{
