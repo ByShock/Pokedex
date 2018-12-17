@@ -1,0 +1,38 @@
+.fullCard_container {
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+ }
+.fullCard_content {
+   padding: 10%;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.fullCard_imageBlock {
+   width: 250px;
+}
+.fullCard_progressDescription {
+   padding-left: 3px;
+}
+.fullCard_big_image {
+   height: 250px;
+   width: 250px;
+ }
+ .fullCard_small_img{
+   box-sizing: border-box;
+   height: 50px;
+   width: 50px;
+   border: 1px solid black;
+   margin: 5px;
+   background: lightgrey;
+   cursor: pointer;
+ }
+.fullCard_activeImage {
+   border: 3px solid blue;
+}
+.fullCard_close_button {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
