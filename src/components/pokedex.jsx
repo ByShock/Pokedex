@@ -77,7 +77,7 @@ export default class Pokedex extends PureComponent {
       this.getPokemonsInfo()
    }
 
-   certainPage = (num) => { //changePage
+   certainPage = (num) => {
       const index = num - 1
       this.setState({
          indexOfPage: index
